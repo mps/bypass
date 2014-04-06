@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     :submodules => true
   }
   s.source_files =
-    'Bypass/*.{h,m,mm}',
-    'Libraries/bypass-core/src/*.{h,cpp}',
-    'Libraries/bypass-core/src/soldout/*.{h,c}'
+    'platform/ios/Bypass/*.{h,m,mm}',
+    'platform/ios/Libraries/bypass-core/src/*.{h,cpp}',
+    'platform/ios/Libraries/bypass-core/src/soldout/*.{h,c}'
 end
